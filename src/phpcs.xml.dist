@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset>
+
+    <arg name="basepath" value="."/>
+    <arg name="cache" value=".phpcs-cache"/>
+    <arg name="colors"/>
+    <arg name="extensions" value="php"/>
+    <!-- Show progress of the run -->
+    <arg value="p"/>
+
+    <rule ref="PSR12"/>
+
+    <rule ref="PSR12.Files.DeclareStatement"/>
+    <rule ref="PSR12.Files.ImportStatement"/>
+    <rule ref="PSR12.Classes.ClosingBrace"/>
+    <rule ref="PSR12.Traits.UseDeclaration"/>
+    <rule ref="PSR12.Properties.ConstantVisibility"/>
+    <rule ref="PSR12.Functions.ReturnTypeDeclaration"/>
+    <rule ref="PSR12.Functions.NullableTypeDeclaration"/>
+    <rule ref="PSR12.Operators.OperatorSpacing"/>
+
+    <!-- Visibility MUST be declared on all methods. -->
+    <rule ref="Squiz.Scope.MethodScope" />
+
+    <rule ref="Generic.PHP.RequireStrictTypes"/>
+    <rule ref="Generic.PHP.DisallowRequestSuperglobal"/>
+    <rule ref="Generic.PHP.LowerCaseConstant"/>
+
+    <file>src/</file>
+
+</ruleset>

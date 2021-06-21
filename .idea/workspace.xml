@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="189883c0-3633-457e-8a2d-0aaa1e69e75a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/logs/nginx/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/conf.d/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/sites/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.phpcs-cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/test/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/test/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/preload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/routes/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/csv/transactions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/migrations/Version20210614171729.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phpcs.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Contract/TransactionsHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Contract/UserDetailsFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Controller/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Controller/TransactionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Controller/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/DataFixtures/BaseFixture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/DataFixtures/CountryFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/DataFixtures/TransactionFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/DataFixtures/UserDetailsFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Entity/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Entity/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Entity/UserDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/EventListener/ApiExceptionSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Exception/ApiProblemException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Exception/ApiProblemModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Factory/TransactionsHandlerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Factory/UserDetailsFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Repository/CountryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Repository/TransactionRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Repository/UserDetailsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Service/TransactionsHandlerCSVService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Service/TransactionsHandlerDBService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Service/TransactionsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Validator/UserDetailsRequestValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Controller/ApiControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/bootstrap.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/src/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tx43neTf83cK8u6LDYv5DNDGi5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-18.04\home\mladen\apps\symfony-api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="189883c0-3633-457e-8a2d-0aaa1e69e75a" name="Default Changelist" comment="" />
+      <created>1623697210322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623697210322</updated>
+      <workItem from="1623697211714" duration="10014000" />
+      <workItem from="1623738633708" duration="351000" />
+      <workItem from="1623769923770" duration="660000" />
+      <workItem from="1623824198384" duration="43000" />
+      <workItem from="1624287649967" duration="655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

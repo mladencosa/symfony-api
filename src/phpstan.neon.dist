@@ -1,0 +1,14 @@
+parameters:
+    level: 8
+
+    checkGenericClassInNonGenericObjectType: false
+
+    paths:
+        - src
+        - tests
+
+    excludes_analyse:
+        - src/Migrations/*
+
+    bootstrapFiles:
+        - vendor/bin/.phpunit/phpunit-9.5-0/vendor/autoload.php
